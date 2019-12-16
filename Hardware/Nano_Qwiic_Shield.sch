@@ -15267,7 +15267,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NANO_FOOTPRINT" prefix="U">
+<deviceset name="NANO_FOOTPRINT" prefix="J">
 <description>Generic Nano Footprint</description>
 <gates>
 <gate name="G$1" symbol="NANO" x="2.54" y="2.54"/>
@@ -15744,7 +15744,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="U1" library="SparkFun-Boards" deviceset="NANO_FOOTPRINT" device=""/>
+<part name="J5" library="SparkFun-Boards" deviceset="NANO_FOOTPRINT" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39284/1"/>
@@ -15760,10 +15760,10 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH" value="SFE_LOGO_NAME_FLAME.1_INCH"/>
-<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="0.2MM"/>
-<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="0.2MM"/>
-<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="0.2MM"/>
-<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="0.2MM"/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -15780,7 +15780,7 @@ does not have I2C pull-up resistors.</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
-<instance part="U1" gate="G$1" x="76.2" y="106.68"/>
+<instance part="J5" gate="G$1" x="76.2" y="106.68"/>
 <instance part="SUPPLY1" gate="G$1" x="60.96" y="129.54"/>
 <instance part="GND1" gate="1" x="60.96" y="114.3"/>
 <instance part="I2C" gate="G$1" x="45.72" y="119.38" smashed="yes" rot="R270">
@@ -15808,7 +15808,7 @@ does not have I2C pull-up resistors.</text>
 <nets>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="3V3"/>
+<pinref part="J5" gate="G$1" pin="3V3"/>
 <wire x1="63.5" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="124.46" x2="60.96" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
@@ -15839,7 +15839,7 @@ does not have I2C pull-up resistors.</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="J5" gate="G$1" pin="GND"/>
 <wire x1="63.5" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="60.96" y1="119.38" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
@@ -15865,7 +15865,7 @@ does not have I2C pull-up resistors.</text>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="A5/SCL"/>
+<pinref part="J5" gate="G$1" pin="A5/SCL"/>
 <wire x1="63.5" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="104.14" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -15897,7 +15897,7 @@ does not have I2C pull-up resistors.</text>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="A4/SDA"/>
+<pinref part="J5" gate="G$1" pin="A4/SDA"/>
 <wire x1="63.5" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>

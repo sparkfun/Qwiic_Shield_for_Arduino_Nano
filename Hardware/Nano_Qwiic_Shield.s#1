@@ -15770,9 +15770,9 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <plain>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="185.42" width="0.2032" layer="97" style="longdash"/>
 <text x="166.37" y="11.176" size="2.54" layer="94" font="vector">Andy England</text>
-<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="2.54" y="177.8" size="2.54" layer="94" font="vector">Nano Footprint
-VCC: 2.7-3.6V</text>
+VCC: 3.3V (Qwiic)</text>
 <text x="149.86" y="177.8" size="2.54" layer="94" font="vector">Qwiic Connections</text>
 <text x="10.16" y="121.92" size="1.27" layer="94" font="vector">Connect the I2C jumpers if your slave 
 does not have I2C pull-up resistors.</text>
