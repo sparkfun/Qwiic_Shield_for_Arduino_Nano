@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -165,6 +165,10 @@
 <wire x1="17.78" y1="0" x2="17.78" y2="43.18" width="0.2032" layer="20"/>
 <wire x1="17.78" y1="43.18" x2="0" y2="43.18" width="0.2032" layer="20"/>
 <wire x1="0" y1="43.18" x2="0" y2="0" width="0.2032" layer="20"/>
+<text x="13.97" y="-7.62" size="1.778" layer="51" font="vector">A. England</text>
+<text x="10.795" y="0.254" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
+<dimension x1="17.78" y1="43.18" x2="0" y2="43.18" x3="8.89" y3="44.45" textsize="1.27" textratio="15" layer="47" unit="inch"/>
+<dimension x1="17.78" y1="0" x2="17.78" y2="43.18" x3="20.32" y3="21.59" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -2928,6 +2932,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-0.2MM" value="FIDUCIAL0.2MM" x="1.27" y="1.27" rot="MR0"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-0.2MM" value="FIDUCIAL0.2MM" x="16.51" y="41.91"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-0.2MM" value="FIDUCIAL0.2MM" x="16.51" y="41.91" rot="MR0"/>
+<element name="U$14" library="buzzard_labels (18)" package="NANO1" value="" x="11.557" y="10.16" rot="MR0"/>
+<element name="U$15" library="buzzard_labels (17)" package="QWIIC_SHIELD1" value="" x="13.97" y="8.636" rot="MR0"/>
 </elements>
 <signals>
 <signal name="3.3V">

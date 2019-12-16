@@ -1,0 +1,12 @@
+1) Do all VCC connections use the VCC symbol (oriented upward)? [YES]
+comment: 3.3V
+
+2) If this is a Qwiic board, does it follow the design guidelines for Qwiic boards in the Wiki? [n/a]
+comment: shield
+
+3) Are all PTHs (aka connectors) clearly labeled with their purpose on both sides of the board? [NO]
+comment: No, as most are not connected
+
+4) If it is a 3-way jumper, is there a label on each side of the jumper? [NO]
+comment: i2c
+
