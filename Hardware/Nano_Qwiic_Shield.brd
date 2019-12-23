@@ -36,24 +36,24 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -3651,6 +3651,36 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="19,1,9a5397c28d68379f"/>
+<approved hash="19,1,b1b9ae000c0213bb"/>
+<approved hash="19,1,8db99206f804e7bb"/>
+<approved hash="19,1,8db99206f804e7bb"/>
+<approved hash="19,1,5dbb420490068fb9"/>
+<approved hash="19,1,105a4902c4426686"/>
+<approved hash="19,1,8db99206f804e7bb"/>
+<approved hash="19,1,1ed95214e3a154f0"/>
+<approved hash="19,1,5dbb420490068fb9"/>
+<approved hash="19,1,4e9baaf96d7b871b"/>
+<approved hash="19,1,abcb34ac4e37f7a1"/>
+<approved hash="19,1,9a5397c28d68379f"/>
+<approved hash="19,1,d5d9349b8ed55010"/>
+<approved hash="19,1,8db99206f804e7bb"/>
+<approved hash="19,1,1ed95214e3a154f0"/>
+<approved hash="19,1,5dbb420490068fb9"/>
+<approved hash="19,1,b32f1fadd9bacbbe"/>
+<approved hash="19,1,e27692d5ec6bd6b0"/>
+<approved hash="19,1,abcb34ac4e37f7a1"/>
+<approved hash="19,1,e27692d5ec6bd6b0"/>
+<approved hash="19,1,011180a830754a88"/>
+<approved hash="19,1,0c42986e149e7bf6"/>
+<approved hash="19,1,5c0b5f248d268e09"/>
+<approved hash="19,1,7f237e792f98e8c9"/>
+<approved hash="19,1,cedb821381a636f2"/>
+<approved hash="19,1,105a4902c4426686"/>
+<approved hash="19,1,e4404905f659a080"/>
+<approved hash="19,1,1c6b0481e4bfbfcd"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
