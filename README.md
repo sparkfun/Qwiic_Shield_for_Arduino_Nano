@@ -1,9 +1,9 @@
 SparkFun Qwiic Shield for Arduino Nano
 ========================================
 
-![SparkFun Qwiic Shield for Arduino Nano](https://cdn.sparkfun.com/assets/parts/1/4/7/8/9/16130-SparkFun_Qwiic_Shield_for_Arduino_Nano-01.jpg)
+![SparkFun Qwiic Shield for Arduino Nano](https://cdn.sparkfun.com/assets/parts/1/5/6/9/6/16789-SparkFun_Qwiic_Shield_for_Arduino_Nano-05.jpg)
 
-[*SparkFun Qwiic Shield for Arduino Nano (DEV-16130)*](https://www.sparkfun.com/products/16130)
+[*SparkFun Qwiic Shield for Arduino Nano (DEV-16789)*](https://www.sparkfun.com/products/16789)
 
 This is a shield that connects the I<sup>2</sup>C bus of an Arduino Nano (or compatible board) to four Qwiic connectors.
 
@@ -24,7 +24,8 @@ Documentation
 Product Versions
 ----------------
 
-* [DEV-16130](https://www.sparkfun.com/products/16130)- An Arduino shield to connect the I<sup>2</sup>C bus on an Arduino Nano (or compatible board) to Qwiic connectors. 
+* [DEV-16789](https://www.sparkfun.com/products/16789) - Updated version now includes a set of Stackable Headers.
+* [DEV-16130](https://www.sparkfun.com/products/16130) - An Arduino shield to connect the I<sup>2</sup>C bus on an Arduino Nano (or compatible board) to Qwiic connectors. 
 
 License Information
 -------------------
